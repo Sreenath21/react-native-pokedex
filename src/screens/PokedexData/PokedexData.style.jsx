@@ -14,6 +14,7 @@ export default StyleSheet.create({
 
   safeArea: {
     flex: 1,
+    backgroundColor: colors.primaryBackground,
   },
   scroll: {
     flex: 1,

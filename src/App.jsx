@@ -11,6 +11,7 @@ import Home from './screens/Home/Home';
 import PokedexData from './screens/PokedexData/PokedexData';
 import PokemonContextProvider from './context/PokemonContext';
 import TypesContextProvider from './context/TypesContext';
+import colors from './utils/colors';
 
 const Stack = createNativeStackNavigator();
 
@@ -18,7 +19,10 @@ const App = () => {
   return (
     <Provider store={store}>
       <PersistGate loading={null} persistor={persistor}>
-        <StatusBar hidden />
+        <StatusBar
+          backgroundColor={colors.primaryBackground}
+          barStyle="dark-content"
+        />
         <PokemonContextProvider>
           <TypesContextProvider>
             <NavigationContainer>

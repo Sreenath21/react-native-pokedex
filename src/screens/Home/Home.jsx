@@ -8,6 +8,7 @@ import FilterModal from '../../components/FilterModal/FilterModal';
 
 import {fetchPokemonIds} from '../../redux/features/pokeIdsSlice';
 import styles from './Home.style';
+import colors from '../../utils/colors';
 
 const Home = ({navigation}) => {
   const [searchTerm, setSearchTerm] = useState('');
@@ -61,7 +62,7 @@ const Home = ({navigation}) => {
   }
 
   return (
-    <SafeAreaView>
+    <SafeAreaView style={{backgroundColor: colors.primaryBackground}}>
       <View style={styles.container}>
         <View style={styles.cardContainer}>
           {pokemonDetails.data.length > 0 && (
