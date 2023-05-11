@@ -1,4 +1,5 @@
 import React from 'react';
+import {View, Text} from 'react-native';
 import PokemonCards from './PokemonCards';
 import {render} from '@testing-library/react-native';
 
@@ -8,8 +9,12 @@ it('PokemonCards renders correctly', () => {
   const screen = render(
     <PokemonCards
       searchTerm="bulbasaur"
-      // HeaderComponent={<View></View>}
-      HeaderComponent={React.Component}
+      HeaderComponent={
+        <View>
+          <Text>HeaderComponent</Text>
+        </View>
+      }
+      // HeaderComponent={React.Component}
       navigation={jest.fn()}
     />,
     {
