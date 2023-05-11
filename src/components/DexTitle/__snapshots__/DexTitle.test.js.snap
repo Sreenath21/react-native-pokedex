@@ -1,0 +1,95 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking DexTitle component is rendering 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "flexDirection": "row",
+      "justifyContent": "space-between",
+      "marginTop": 32,
+    }
+  }
+>
+  <View
+    style={{}}
+  >
+    <Text
+      style={
+        {
+          "color": "#391363",
+          "fontSize": 32,
+          "fontWeight": "bold",
+          "letterSpacing": 1.2,
+        }
+      }
+    >
+      BULBASAUR
+    </Text>
+    <Text
+      style={
+        {
+          "color": "#391363",
+          "fontSize": 32,
+          "fontWeight": 400,
+        }
+      }
+    >
+      001
+    </Text>
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignSelf": "flex-start",
+        "borderColor": "#391363",
+        "borderRadius": 50,
+        "borderWidth": 1,
+        "justifyContent": "flex-start",
+        "paddingHorizontal": 8,
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#391363",
+          "fontSize": 24,
+          "textAlign": "center",
+        }
+      }
+    >
+      x
+    </Text>
+  </View>
+</View>
+`;

@@ -1,0 +1,399 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DexBody should render correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "marginVertical": 24,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "flexDirection": "row",
+        "gap": 20,
+        "height": 225,
+      }
+    }
+  >
+    <View
+      style={
+        {
+          "borderColor": "black",
+          "borderRadius": 10,
+          "borderStyle": "dashed",
+          "borderWidth": 1,
+          "flex": 1,
+          "overflow": "hidden",
+        }
+      }
+    >
+      <BVLinearGradient
+        colors={
+          [
+            undefined,
+          ]
+        }
+        endPoint={
+          {
+            "x": 0.5,
+            "y": 1,
+          }
+        }
+        locations={null}
+        startPoint={
+          {
+            "x": 0.5,
+            "y": 0,
+          }
+        }
+        style={
+          {
+            "borderRadius": 10,
+            "flex": 1,
+          }
+        }
+      >
+        <Image
+          resizeMode="contain"
+          source={
+            {
+              "uri": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/undefined.png",
+            }
+          }
+          style={
+            {
+              "alignSelf": "center",
+              "flex": 1,
+              "justifyContent": "center",
+              "overflow": "hidden",
+              "width": 150,
+            }
+          }
+        />
+      </BVLinearGradient>
+    </View>
+    <View
+      style={
+        {
+          "flex": 1,
+          "gap": 5,
+        }
+      }
+    >
+      <Text
+        ellipsizeMode="tail"
+        numberOfLines={9}
+        style={
+          {
+            "color": "#391363",
+            "flex": 1,
+            "fontSize": 18,
+            "width": "100%",
+          }
+        }
+      >
+        Some text
+      </Text>
+      <View
+        accessibilityState={
+          {
+            "busy": undefined,
+            "checked": undefined,
+            "disabled": undefined,
+            "expanded": undefined,
+            "selected": undefined,
+          }
+        }
+        accessibilityValue={
+          {
+            "max": undefined,
+            "min": undefined,
+            "now": undefined,
+            "text": undefined,
+          }
+        }
+        accessible={true}
+        collapsable={false}
+        focusable={true}
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          {
+            "alignSelf": "flex-start",
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#391363",
+              "fontSize": 18,
+              "fontWeight": "bold",
+              "textDecorationLine": "underline",
+            }
+          }
+        >
+          read more
+        </Text>
+      </View>
+    </View>
+  </View>
+  <View>
+    <View
+      style={
+        {
+          "marginTop": 48,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginVertical": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flex": 1,
+              "rowGap": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Height
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+              }
+            }
+          >
+            0'0"
+          </Text>
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "rowGap": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Weight
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+              }
+            }
+          >
+            0 Kg
+          </Text>
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginVertical": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flex": 1,
+              "rowGap": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Gender(s)
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "rowGap": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Egg Groups
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "flexDirection": "row",
+            "marginVertical": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flex": 1,
+              "rowGap": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Abilities
+          </Text>
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+              }
+            }
+          />
+        </View>
+        <View
+          style={
+            {
+              "flex": 1,
+              "rowGap": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Types
+          </Text>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "gap": 5,
+              }
+            }
+          />
+        </View>
+      </View>
+      <View
+        style={
+          {
+            "marginVertical": 16,
+          }
+        }
+      >
+        <View
+          style={
+            {
+              "flex": 1,
+              "rowGap": 10,
+            }
+          }
+        >
+          <Text
+            style={
+              {
+                "color": "#391363",
+                "fontSize": 16,
+                "fontWeight": "bold",
+              }
+            }
+          >
+            Weak Against
+          </Text>
+          <View
+            style={
+              {
+                "flexDirection": "row",
+                "flexWrap": "wrap",
+                "gap": 5,
+              }
+            }
+          />
+        </View>
+      </View>
+    </View>
+  </View>
+</View>
+`;

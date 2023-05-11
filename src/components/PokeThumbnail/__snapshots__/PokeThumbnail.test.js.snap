@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`PokeThumbnail renders correctly 1`] = `
+<View
+  accessibilityState={
+    {
+      "busy": undefined,
+      "checked": undefined,
+      "disabled": undefined,
+      "expanded": undefined,
+      "selected": undefined,
+    }
+  }
+  accessibilityValue={
+    {
+      "max": undefined,
+      "min": undefined,
+      "now": undefined,
+      "text": undefined,
+    }
+  }
+  accessible={true}
+  collapsable={false}
+  focusable={true}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onFocus={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  testID="card"
+>
+  <View
+    style={
+      {
+        "borderColor": "black",
+        "borderRadius": 10,
+        "borderStyle": "dashed",
+        "borderWidth": 1,
+        "height": 225,
+        "overflow": "hidden",
+        "width": 155,
+      }
+    }
+  >
+    <BVLinearGradient
+      colors={
+        [
+          undefined,
+        ]
+      }
+      endPoint={
+        {
+          "x": 0.5,
+          "y": 1,
+        }
+      }
+      locations={null}
+      startPoint={
+        {
+          "x": 0.5,
+          "y": 0,
+        }
+      }
+      style={
+        {
+          "borderRadius": 10,
+          "flex": 1,
+        }
+      }
+    >
+      <View
+        style={
+          {
+            "flex": 7,
+          }
+        }
+      >
+        <Image
+          source={
+            {
+              "uri": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/bulbasaur.png",
+            }
+          }
+          style={
+            {
+              "alignSelf": "center",
+              "height": 160,
+              "top": 15,
+              "width": 160,
+            }
+          }
+        />
+      </View>
+      <View
+        style={
+          {
+            "flex": 2,
+          }
+        }
+      >
+        <Text
+          style={
+            {
+              "color": "#391363",
+              "fontSize": 16,
+              "fontWeight": "bold",
+              "textAlign": "center",
+            }
+          }
+        >
+          Bulbasaur
+        </Text>
+        <Text
+          style={
+            {
+              "color": "#391363",
+              "fontSize": 16,
+              "textAlign": "center",
+            }
+          }
+        >
+          001
+        </Text>
+      </View>
+    </BVLinearGradient>
+  </View>
+</View>
+`;

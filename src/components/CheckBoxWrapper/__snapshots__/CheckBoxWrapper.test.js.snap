@@ -1,0 +1,60 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Renders Default Types 1`] = `
+<View
+  style={
+    {
+      "columnGap": 10,
+      "flexDirection": "row",
+      "width": "40%",
+    }
+  }
+>
+  <View
+    accessibilityRole="checkbox"
+    accessibilityState={
+      {
+        "checked": false,
+        "disabled": false,
+      }
+    }
+    accessibilityValue={
+      {
+        "text": "off",
+      }
+    }
+    accessible={true}
+    pointerEvents="auto"
+  >
+    <RNCCheckbox
+      animationDuration={0.01}
+      boxType="square"
+      forwardedRef={null}
+      onValueChange={[Function]}
+      style={
+        [
+          {
+            "backgroundColor": "transparent",
+            "height": 32,
+            "width": 32,
+          },
+          {
+            "height": 20,
+            "width": 20,
+          },
+        ]
+      }
+      value={false}
+    />
+  </View>
+  <Text
+    style={
+      {
+        "color": "#391363",
+      }
+    }
+  >
+    Normal
+  </Text>
+</View>
+`;

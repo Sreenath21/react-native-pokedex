@@ -1,0 +1,34 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checking DexTile component rendering correctly 1`] = `
+<View
+  style={
+    {
+      "flex": 1,
+      "rowGap": 10,
+    }
+  }
+>
+  <Text
+    style={
+      {
+        "color": "#391363",
+        "fontSize": 16,
+        "fontWeight": "bold",
+      }
+    }
+  >
+    abilities
+  </Text>
+  <Text
+    style={
+      {
+        "color": "#391363",
+        "fontSize": 16,
+      }
+    }
+  >
+    Blaze
+  </Text>
+</View>
+`;

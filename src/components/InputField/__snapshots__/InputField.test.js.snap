@@ -1,0 +1,89 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputField renders correctly 1`] = `
+<View
+  style={
+    {
+      "flexDirection": "row",
+      "height": 60,
+      "marginBottom": 24,
+      "marginTop": 32,
+    }
+  }
+>
+  <View
+    style={
+      {
+        "backgroundColor": "#dbe4ff",
+        "borderRadius": 10,
+        "flex": 3,
+        "marginRight": 24,
+      }
+    }
+  >
+    <TextInput
+      keyboardType="default"
+      onChangeText={[Function]}
+      placeholder="Name or Number"
+      style={
+        {
+          "flex": 3,
+          "fontSize": 16,
+          "paddingHorizontal": 16,
+        }
+      }
+      value=""
+    />
+  </View>
+  <View
+    accessibilityState={
+      {
+        "busy": undefined,
+        "checked": undefined,
+        "disabled": undefined,
+        "expanded": undefined,
+        "selected": undefined,
+      }
+    }
+    accessibilityValue={
+      {
+        "max": undefined,
+        "min": undefined,
+        "now": undefined,
+        "text": undefined,
+      }
+    }
+    accessible={true}
+    collapsable={false}
+    focusable={true}
+    onBlur={[Function]}
+    onClick={[Function]}
+    onFocus={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      {
+        "alignItems": "center",
+        "backgroundColor": "#391363",
+        "borderRadius": 10,
+        "flex": 1,
+        "justifyContent": "center",
+      }
+    }
+  >
+    <Text
+      style={
+        {
+          "color": "#fff",
+        }
+      }
+    >
+      Filters
+    </Text>
+  </View>
+</View>
+`;

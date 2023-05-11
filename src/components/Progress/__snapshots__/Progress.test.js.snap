@@ -1,0 +1,47 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress component renders correctly 1`] = `
+<View
+  style={
+    [
+      {
+        "backgroundColor": "#9fc6c7",
+        "flex": 10,
+        "height": 12,
+        "overflow": "hidden",
+      },
+    ]
+  }
+>
+  <View
+    style={
+      [
+        {
+          "backgroundColor": "#391363",
+          "flex": 1,
+          "height": 12,
+          "left": 0,
+          "position": "absolute",
+          "top": 0,
+          "width": "100%",
+        },
+        {
+          "width": "80%",
+        },
+      ]
+    }
+  />
+  <Text
+    style={
+      {
+        "color": "#fff",
+        "fontSize": 10,
+        "fontWeight": 500,
+        "marginLeft": 5,
+      }
+    }
+  >
+    80
+  </Text>
+</View>
+`;

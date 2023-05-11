@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ImgPreview renders correctly 1`] = `
+<View
+  style={
+    {
+      "borderColor": "black",
+      "borderRadius": 10,
+      "borderStyle": "dashed",
+      "borderWidth": 1,
+      "flex": 1,
+      "overflow": "hidden",
+    }
+  }
+>
+  <BVLinearGradient
+    colors={
+      [
+        undefined,
+      ]
+    }
+    endPoint={
+      {
+        "x": 0.5,
+        "y": 1,
+      }
+    }
+    locations={null}
+    startPoint={
+      {
+        "x": 0.5,
+        "y": 0,
+      }
+    }
+    style={
+      {
+        "borderRadius": 10,
+        "flex": 1,
+      }
+    }
+  >
+    <Image
+      resizeMode="contain"
+      source={
+        {
+          "uri": "https://img.pokemondb.net/sprites/omega-ruby-alpha-sapphire/dex/normal/undefined.png",
+        }
+      }
+      style={
+        {
+          "alignSelf": "center",
+          "flex": 1,
+          "justifyContent": "center",
+          "overflow": "hidden",
+          "width": 150,
+        }
+      }
+    />
+  </BVLinearGradient>
+</View>
+`;
